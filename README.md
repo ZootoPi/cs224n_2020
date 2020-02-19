@@ -39,3 +39,7 @@
     - [ ] Future of NLP + Deep Learning.
 - __Week 11__:
     - [ ] Final project poster session.
+
+### Contributors:
+- [Viet-Tien](https://github.com/tiena2cva)
+- [honghanhh](https://github.com/honghanhh)
