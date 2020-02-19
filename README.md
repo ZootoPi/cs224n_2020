@@ -1,18 +1,18 @@
-## __CS224n: Natural Language Processing with Deep Learning__
+# __CS224n: Natural Language Processing with Deep Learning__
 
 ## Course links
 - Course page [CS224N](http://web.stanford.edu/class/cs224n/).
 - Lecture videos 2020: (Updating).
 
-### Table of contents
+## Table of contents
 - __Week 1__: 
     - [ ] Introduction and Word Vectors.
     - [ ] Gensim word vectors example.
     - [ ] Word Vectors 2 and Word Senses.
-    - [ ] Python review session
+    - [ ] Python review session.
 - __Week 2__:
     - [ ] Word Window Classification, Neural Networks, and Pytorch.
-    - [ ] Matrix Calculus and Backpropagation
+    - [ ] Matrix Calculus and Backpropagation.
 - __Week 3__:
     - [ ] Linguistic Structure: Dependency Parsing.
     - [ ] The probability of a sentence? Recurrent Neural Networks and Language Models 
@@ -40,6 +40,6 @@
 - __Week 11__:
     - [ ] Final project poster session.
 
-### Contributors:
+## Contributors:
 - [Viet-Tien](https://github.com/tiena2cva)
 - [honghanhh](https://github.com/honghanhh)
