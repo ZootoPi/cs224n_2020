@@ -1,4 +1,4 @@
-# __CS224n: Natural Language Processing with Deep Learning__
+## __CS224n: Natural Language Processing with Deep Learning__
 
 ## Course links
 - Course page [CS224N](http://web.stanford.edu/class/cs224n/).
