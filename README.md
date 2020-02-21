@@ -44,5 +44,5 @@
 
 ## Contributors:
 
-- 🐔 [Viet-Tien](https://github.com/tiena2cva)
+- 🐔 [@tiena2cva](https://github.com/tiena2cva)
 - 🐮 [honghanhh](https://github.com/honghanhh)
