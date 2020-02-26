@@ -7,9 +7,8 @@ assignees: ''
 ---
 
 ## Problem to solve
-
 [//]: # "A clear and concise description of what the problem is"
 
-## Further details
 
+## Further details
 [//]: # "A clear and concise description of what you want to happen."
