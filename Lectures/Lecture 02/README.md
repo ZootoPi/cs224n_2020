@@ -1,4 +1,8 @@
-# Word Vectors 2 and Word Senses
+# Lecture 2: Word Vectors, WordSenses and Classifier Review
+
+## Table of content
+
+## Reference
 
 - [Slide](http://web.stanford.edu/class/cs224n/slides/cs224n-2020-lecture02-wordvecs2.pdf)
 - [Note](http://web.stanford.edu/class/cs224n/readings/cs224n-2019-notes02-wordvecs2.pdf)
