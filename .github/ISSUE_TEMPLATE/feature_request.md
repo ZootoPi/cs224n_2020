@@ -7,13 +7,12 @@ assignees: ''
 ---
 
 ## Problem to solve
-
 [//]: # "A clear and concise description of what the problem is"
 
-## Further details
 
+## Further details
 [//]: # "A clear and concise description of what you want to be documented."
 
-## Additional context
 
+## Additional context
 [//]: # "Add any other context or screenshots about the feature request here."
