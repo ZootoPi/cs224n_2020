@@ -1,6 +1,28 @@
 # Lecture 2: Word Vectors, WordSenses and Classifier Review
 
 ## Table of content
+1. [Word2vec](#word2vec)
+1. [Gradient Descent](#gradient-descent)
+1. [Co-occurrence matrix](#co-occurrence-matrix)
+1. [GloVe](#glove)
+1. [Evaluate word vectors](#evaluate-word-vectors)
+1. [Word senses and word sense ambiguity](#word-senses-and-word-sense-ambiguity)
+1. [Classification review and notation](#classification-review-and-notation)
+1. [Reference](#reference)
+
+## Word2vec
+
+## Gradient Descent
+
+## Co-occurrence matrix
+
+## GloVe
+
+## Evaluate word vectors
+
+## Word senses and word sense ambiguity
+
+## Classification review and notation
 
 ## Reference
 
