@@ -17,7 +17,7 @@ def sigmoid(x):
     """
 
     ### YOUR CODE HERE (~1 Line)
-
+    s = 1.0 / (1.0 + np.exp(-x))
     ### END YOUR CODE
 
     return s
@@ -31,7 +31,7 @@ def naiveSoftmaxLossAndGradient(
 ):
     """ Naive Softmax loss & gradient function for word2vec models
 
-    Implement the naive softmax loss and gradients between a center word's 
+    Implement the naive softmax loss and gradients between a center word's
     embedding and an outside word's embedding. This will be the building block
     for our word2vec models.
 
@@ -42,7 +42,7 @@ def naiveSoftmaxLossAndGradient(
     outsideWordIdx -- integer, the index of the outside word
                     (o of u_o in the pdf handout)
     outsideVectors -- outside vectors is
-                    in shape (num words in vocab, word vector length) 
+                    in shape (num words in vocab, word vector length)
                     for all words in vocab (U in the pdf handout)
     dataset -- needed for negative sampling, unused here.
 
@@ -52,7 +52,7 @@ def naiveSoftmaxLossAndGradient(
                      in shape (word vector length, )
                      (dJ / dv_c in the pdf handout)
     gradOutsideVecs -- the gradient with respect to all the outside word vectors
-                    in shape (num words in vocab, word vector length) 
+                    in shape (num words in vocab, word vector length)
                     (dJ / dU)
     """
 
@@ -60,7 +60,7 @@ def naiveSoftmaxLossAndGradient(
 
     ### Please use the provided softmax function (imported earlier in this file)
     ### This numerically stable implementation helps you avoid issues pertaining
-    ### to integer overflow. 
+    ### to integer overflow.
 
     ### END YOUR CODE
 
@@ -127,11 +127,11 @@ def skipgram(currentCenterWord, windowSize, outsideWords, word2Ind,
     outsideWords -- list of no more than 2*windowSize strings, the outside words
     word2Ind -- a dictionary that maps words to their indices in
               the word vector list
-    centerWordVectors -- center word vectors (as rows) is in shape 
-                        (num words in vocab, word vector length) 
+    centerWordVectors -- center word vectors (as rows) is in shape
+                        (num words in vocab, word vector length)
                         for all words in vocab (V in pdf handout)
-    outsideVectors -- outside vectors is in shape 
-                        (num words in vocab, word vector length) 
+    outsideVectors -- outside vectors is in shape
+                        (num words in vocab, word vector length)
                         for all words in vocab (U in the pdf handout)
     word2vecLossAndGradient -- the loss and gradient function for
                                a prediction vector given the outsideWordIdx
@@ -145,7 +145,7 @@ def skipgram(currentCenterWord, windowSize, outsideWords, word2Ind,
                      in shape (word vector length, )
                      (dJ / dv_c in the pdf handout)
     gradOutsideVecs -- the gradient with respect to all the outside word vectors
-                    in shape (num words in vocab, word vector length) 
+                    in shape (num words in vocab, word vector length)
                     (dJ / dU)
     """
 
@@ -156,7 +156,7 @@ def skipgram(currentCenterWord, windowSize, outsideWords, word2Ind,
     ### YOUR CODE HERE (~8 Lines)
 
     ### END YOUR CODE
-    
+
     return loss, gradCenterVecs, gradOutsideVectors
 
 
@@ -164,7 +164,7 @@ def skipgram(currentCenterWord, windowSize, outsideWords, word2Ind,
 # Testing functions below. DO NOT MODIFY!   #
 #############################################
 
-def word2vec_sgd_wrapper(word2vecModel, word2Ind, wordVectors, dataset, 
+def word2vec_sgd_wrapper(word2vecModel, word2Ind, wordVectors, dataset,
                          windowSize,
                          word2vecLossAndGradient=naiveSoftmaxLossAndGradient):
     batchsize = 50
@@ -222,4 +222,3 @@ def test_word2vec():
 
 if __name__ == "__main__":
     test_word2vec()
-
